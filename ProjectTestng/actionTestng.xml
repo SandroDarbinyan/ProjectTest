@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Training Suite" verbose="1">
+	<test name="Training Test">
+		<classes>
+			<class name="com.company.ProjectTestng.MyTest">
+				<methods>
+					<include name="action" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
